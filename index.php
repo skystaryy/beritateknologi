@@ -106,19 +106,20 @@ if (mysqli_multi_query($koneksi, $query)) {
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Berita Teknologi</h1>
+        <img src="assets/img/alva2.png" alt="">
+        <h1 class="sitename">ALVA</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#mission">Vision & Mision</a></li>
+          <li><a href="#product">Products</a></li>
           <li><a href="#services">Artikel</a></li>
-          <li><a href="#portfolio">Galeri</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#testimonials">Partnership</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -134,7 +135,7 @@ if (mysqli_multi_query($koneksi, $query)) {
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -153,15 +154,15 @@ if (mysqli_multi_query($koneksi, $query)) {
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-            <h1>Elegant and creative solutions</h1>
-            <p>Menghubungkan Anda dengan Tren Teknologi Global.</p>
+            <h1>Leading the Future of Electric Vehicles in Indonesia</h1>
+            <p>ALVA is a lifestyle mobility solution propelling Indonesia forward into a cleaner, smarter future.</p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Get Started</a>
               <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+            <img src="assets/img/motor1.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
@@ -174,150 +175,197 @@ if (mysqli_multi_query($koneksi, $query)) {
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span>About Us<br></span>
-        <h2>About</h2>
-        <p>Kami menyajikan berita, artikel, pengetahuan yang kamu inginkan!</p>
+        <h2>About Us</h2>
+        <p class="">Ilectra Motor Group (IMG) is an electric mobility
+            solution company with aspiration to become a
+            leading electric two wheelers champion and prime
+            mover of the local green mobility ecosystem.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.png" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <img src="assets/img/rider.png" class="img-fluid" alt="">
+            <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> -->
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Kenapa harus pilih kami?</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Terhindar dari hoax.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Berita lengkap</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Dapat dipercaya</span></li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            <!-- <h3>Kenapa harus pilih kami?</h3> -->
+            <p> ALVA is total mobility solution from IMG, part of Indika Energy, Alpha JWC Ventures, and Horizons Ventures’ venture into the electric vehicles sector.</p>
+            <p> itself was founded to facilitate the partnership and build not only a two-wheeler brand, but also its supporting ecosystem, which is very much still nascent, including EV Infrastructure for which further collaborations to be built with a partnership network.</p>
+            <p>  IMG will come with sophisticated electric two-wheelers design and top-of-the line performance, completed with great customer experience, backed by supporting technology and mobility ecosystem.</p>
             </p>
           </div>
         </div>
-
       </div>
 
     </section><!-- /About Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
+  <section id="mission" class="section light-background" style="padding: 60px 0;">
+    <div class="container text-center mb-5" data-aos="fade-up">
+      <h2 class="fw-bold">Our Vision</h2>
+      <p class="text-muted">To Become Electric Mobility Champion and Reshape Sustainability.</p>
+    </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="container text-center mb-5" data-aos="fade-up">
+      <h2 class="fw-bold">Our Mission</h2>
+      <p class="text-muted">To Provide Better Solutions for People by Delivering New Mobility Lifestyle in a Sustainable Way</p>
+    </div>
 
-        <div class="row gy-4">
+    <div class="container">
+      <div class="row gy-4">
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+        <!-- Item 1 -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-4 bg-white shadow-sm rounded border h-100">
+            <div class="mb-3 text-success">
+              <i class="bi bi-people-fill" style="font-size: 1.5rem;"></i>
             </div>
-          </div><!-- End Stats Item -->
+            <h5 class="fw-bold">People are First and Foremost</h5>
+            <p class="mb-0 text-muted">We focus on our customers and strive to inspire green lifestyle for our stakeholders, delivered by outstanding people who believe in our cause.</p>
+          </div>
+        </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+        <!-- Item 2 -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-4 bg-white shadow-sm rounded border h-100">
+            <div class="mb-3 text-success">
+              <i class="bi bi-lightbulb-fill" style="font-size: 1.5rem;"></i>
             </div>
-          </div><!-- End Stats Item -->
+            <h5 class="fw-bold">Rules Were Never Set in Stone</h5>
+            <p class="mb-0 text-muted">We are a game changer. We go beyond the ordinary. We lead the trend by riding the wave of CHANGE.</p>
+          </div>
+        </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+        <!-- Item 3 -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="p-4 bg-white shadow-sm rounded border h-100">
+            <div class="mb-3 text-success">
+              <i class="bi bi-cpu-fill" style="font-size: 1.5rem;"></i>
             </div>
-          </div><!-- End Stats Item -->
+            <h5 class="fw-bold">Technology is Inseparable When Formulating Solutions</h5>
+            <p class="mb-0 text-muted">We always look forward and harness new technologies to offer the best experience for all.</p>
+          </div>
+        </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
+        <!-- Item 4 -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="p-4 bg-white shadow-sm rounded border h-100">
+            <div class="mb-3 text-success">
+              <i class="bi bi-arrow-repeat" style="font-size: 1.5rem;"></i>
             </div>
-          </div><!-- End Stats Item -->
-
+            <h5 class="fw-bold">Never Satisfied, Always Moving, Always Evolving</h5>
+            <p class="mb-0 text-muted">We believe in continuous improvements and breakthroughs.</p>
+          </div>
         </div>
 
       </div>
+    </div>
+  </section>
 
-    </section><!-- /Stats Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section light-background">
+        <!-- Portfolio Section -->
+    <section id="product" class="portfolio section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Artikel</span>
-        <h2>Artikel</h2>
-        <p>Temukan Artikel yang cocok dengan mu disini!</p>
+        <span>ALVA Motorcycle</span>
+        <h2>ALVA Motorcycle</h2>
+        <p>MEET YOUR MATCH!</p>
       </div><!-- End Section Title -->
 
-      <div class="container">     
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="row gy-4">
-
-        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-          <?php if (count($artikelData) > 0): ?>
-            <?php foreach ($artikelData as $artikel): ?>
-              <div class="col-lg-4 col-md-6">
-                <div class="service-item position-relative">
-                  <div class="image">
-                    <img src="admin/artikel/<?= $artikel['gambar']; ?>" alt="Gambar Artikel" class="img-fluid">
-                  </div>
-                  <a href="<?= $artikel['link']; ?>" class="stretched-link">
-                    <h3><?= $artikel['judul']; ?></h3>
-                  </a>
-                  <small>
-                    <em>Ditulis oleh <?= $artikel['penulis']; ?> pada <?= date("d M Y", strtotime($artikel['tanggalwaktu'])); ?></em>
-                  </small>
-                  <p>
-                    <?= substr($artikel['isi'], 0, 100); ?>...
-                  </p>
-                </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/motor1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CERVO Q</h4>
+                <p>Get yours for Rp 49.500.000* (OTR Jabodetabek)</p>
+                <a href="assets/img/motor1.png" title="CERVO Q" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            <?php endforeach; ?>
-          <?php else: ?>
-            <p>Artikel tidak ditemukan.</p>
-          <?php endif; ?>
-        </div>
+            </div><!-- End Portfolio Item -->
 
-          <!-- End Service Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/motor2.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ONE XP</h4>
+                <p>Available Starts From Rp 38.500.000* (OTR Jabodetabek)</p>
+                <a href="assets/img/motor2.png" title="ONE XP" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/motor3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>CERVO X</h4>
+                <p>Get yours for Rp 44.900.000* (OTR Jabodetabek)</p>
+                <a href="assets/img/motor3.png" title="CERVO X" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+          </div><!-- End Portfolio Container -->
 
         </div>
 
       </div>
 
+    </section><!-- /Portfolio Section -->
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>Article</span>
+        <h2>Article</h2>
+        <p>Get to know about every update on ALVA, news, partnership, everything</p>
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row gy-4">
+          <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+            <?php if (count($artikelData) > 0): ?>
+              <?php foreach ($artikelData as $artikel): ?>
+                <div class="col-lg-4 col-md-6">
+                  <div class="service-item position-relative">
+                    <div class="image">
+                      <img src="admin/artikel/<?= $artikel['gambar']; ?>" alt="Gambar Artikel" class="img-fluid">
+                    </div>
+                    <a href="artikel.php?id=<?= $artikel['id']; ?>" class="stretched-link">
+                      <h3><?= $artikel['judul']; ?></h3>
+                    </a>
+                    <small>
+                      <em>Ditulis oleh <?= $artikel['penulis']; ?> pada <?= date("d M Y", strtotime($artikel['tanggalwaktu'])); ?></em>
+                    </small>
+                    <p>
+                      <?= substr($artikel['isi'], 0, 100); ?>...
+                    </p>
+                  </div>
+                </div>
+              <?php endforeach; ?>
+            <?php else: ?>
+              <p>Artikel tidak ditemukan.</p>
+            <?php endif; ?>
+          </div>
+        </div>
+      </div>
     </section><!-- /Services Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="galeri" class="portfolio section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span>Galeri</span>
         <h2>Galeri</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <!-- <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
-          </ul> -->
-          <!-- End Portfolio Filters -->
-
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
             <?php if (count($galeriData) > 0): ?>
               <?php $counter = 1; // Mulai penghitung dari 1 ?>
@@ -351,9 +399,9 @@ if (mysqli_multi_query($koneksi, $query)) {
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Testimonials</span>
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <span>Partnerships & Affiliations</span>
+        <h2>Partnerships & Affiliations</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -387,67 +435,32 @@ if (mysqli_multi_query($koneksi, $query)) {
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="testimonial-item" "="">
-            <p>
-              <i class=" bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+              <div class="testimonial-item">
+                <img src="assets/img/kopikenangan.png" alt="Kopi Kenangan" class="img-fluid" style="height: 100px; max-width: 150px; object-fit: contain; margin: auto; display: block;">
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src="assets/img/pizzahut.png" alt="Pizza Hut" class="img-fluid" style="height: 100px; max-width: 150px; object-fit: contain; margin: auto; display: block;">
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src="assets/img/wir.png" alt="WIR Group" class="img-fluid" style="height: 100px; max-width: 150px; object-fit: contain; margin: auto; display: block;">
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src="assets/img/oto.png" alt="Otoklik" class="img-fluid" style="height: 100px; max-width: 150px; object-fit: contain; margin: auto; display: block;">
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <img src="assets/img/ecocare.png" alt="EcoCare" class="img-fluid" style="height: 100px; max-width: 150px; object-fit: contain; margin: auto; display: block;">
               </div>
             </div><!-- End testimonial item -->
 
@@ -460,7 +473,7 @@ if (mysqli_multi_query($koneksi, $query)) {
     </section><!-- /Testimonials Section -->
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section accent-background">
+    <!-- <section id="call-to-action" class="call-to-action section accent-background">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
@@ -474,84 +487,17 @@ if (mysqli_multi_query($koneksi, $query)) {
         </div>
       </div>
 
-    </section><!-- /Call To Action Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span>Section Title</span>
-        <h2>Team</h2>
-        <p>God's Silliest Soldier</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
+    </section> -->
+    <!-- /Call To Action Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Section Title</span>
-        <h2>Contact</h2>
-        <p>Need Something? Go, ask my college</p>
+        <span>Contact Us</span>
+        <h2>Contact Us</h2>
+        <p>24/7 Alva Contact Center (24 Hours)</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -565,7 +511,8 @@ if (mysqli_multi_query($koneksi, $query)) {
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Address</h3>
-                  <p>Jl. Komp. Perumda II No.43, RT.02/RW.02, Cipaku, Kec. Bogor Sel., Kota Bogor, Jawa Barat 16133, Indonesia</p>
+                  <p>PT. Electra Distribusi Indonesia (EDI)</p>
+                  <p>Bintaro Office Park, Building A Floor 5th Jl. Boulevard Bintaro Jaya Blok B7/A6, South Tangerang 15424, Indonesia</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -573,7 +520,7 @@ if (mysqli_multi_query($koneksi, $query)) {
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Call Us</h3>
-                  <p>08979544811</p>
+                  <p>+628881112708</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -581,11 +528,10 @@ if (mysqli_multi_query($koneksi, $query)) {
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
-                  <p>stellify.works@gmail.com</p>
+                  <p>customercare@alvaauto.com</p>
                 </div>
               </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!4v1736408515344!6m8!1m7!1sZq1W1_8hZ30VJxqhQ7LU2g!2m2!1d-6.63145452695742!2d106.8123803957666!3f73.76!4f-8.549999999999997!5f0.7820865974627469" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.6817513526507!2d106.71774307475098!3d-6.275331993713452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fa9d021c5b41%3A0x971c3c0026ab4392!2sINDY%20Bintaro%20Office%20Park!5e1!3m2!1sid!2sid!4v1752832246743!5m2!1sid!2sid"frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
@@ -635,7 +581,7 @@ if (mysqli_multi_query($koneksi, $query)) {
 
   <footer id="footer" class="footer">
 
-    <div class="footer-newsletter">
+    <!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-6">
@@ -650,23 +596,23 @@ if (mysqli_multi_query($koneksi, $query)) {
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">eNno</span>
+            <span class="sitename">ALVA</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>PT. Electra Distribusi Indonesia (EDI)</p>
+            <p>Bintaro Office Park, Building A Floor 5th Jl. Boulevard Bintaro Jaya Blok B7/A6, South Tangerang 15424, Indonesia</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+62 888 111 2708</span></p>
+            <p><strong>Email:</strong> <span>customercare@alvaauto.com</span></p>
           </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
+        <!-- <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
@@ -695,7 +641,7 @@ if (mysqli_multi_query($koneksi, $query)) {
             <a href=""><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </div>
